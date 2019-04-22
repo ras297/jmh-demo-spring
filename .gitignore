@@ -1,0 +1,105 @@
+### Java ###
+target/
+*.class
+*.log
+
+*.ctxt
+.mtj.tmp/
+
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+hs_err_pid*
+
+### Intellij ###
+
+.idea/
+.idea_modules/
+cmake-build-debug/
+
+*.iws
+*.iml
+*.ipr
+
+/out/
+atlassian-ide-plugin.xml
+.idea/replstate.xml
+/.rakeTasks
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Gradle ###
+.gradle
+**/build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+### Eclipse ###
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+.externalToolBuilders/
+*.launch
+*.pydevproject
+.cproject
+.factorypath
+.buildpath
+.target
+.tern-project
+.texlipse
+.springBeans
+.recommenders/
+.cache-main
+.scala_dependencies
+.worksheet
+.project
+.classpath
+
+### Misc ###
+.svn
+*.sst
+*.bin
+misc/
+
+.DS_Store
+*.sql
+
+### Project specific ###
+release/config/launcher.properties
+release/modules/
+osgi-cache/
+logs/
+log/
+deps
+
+
+### Lotus host ###
+sql/
+gen-src/
+
+/RUNNING_PID
+
+
