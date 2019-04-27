@@ -7,9 +7,9 @@ Java Microbenchmarks are Hard because there are many optimizations that the JVM 
  
  Writing a correct Java microbenchmark typically entails preventing the optimizations the JVM and hardware may apply during microbenchmark execution which could not have been applied in a real production system. That is what JMH - the Java Microbenchmark Harness - is helping you do. 
 
-###Running Your JMH Benchmarks
+### Running Your JMH Benchmarks
 java -jar target/benchmarks.jar
-###JMH Benchmark Modes
+### JMH Benchmark Modes
 * Throughput
 * Average Time
 * Sample Time
